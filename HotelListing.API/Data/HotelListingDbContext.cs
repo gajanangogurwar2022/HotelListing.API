@@ -35,40 +35,40 @@ namespace HotelListing.API.Data
                       ShortName = "ENG"
                   }
                 );
-            //modelBuilder.Entity<Hotel>().HasData(
-            //    new Hotel
-            //    {
-            //        Id = 1,
-            //        Name = "Jameka",
-            //        Address = "Mukhed",
-            //        CountryId = 1,
-            //        Rating = 1.1
-            //    },
-            //     new Hotel
-            //     {
-            //         Id = 2,
-            //         Name = "Jameka2",
-            //         Address = "Mukhed2",
-            //         CountryId = 2,
-            //         Rating = 1.1
-            //     },
-            //     new Hotel
-            //     {
-            //         Id = 4,
-            //         Name = "Jameka4",
-            //         Address = "Mukhed4",
-            //         CountryId = 3,
-            //         Rating = 4.1
-            //     },
-            //      new Hotel
-            //      {
-            //          Id = 3,
-            //          Name = "Jameka3",
-            //          Address = "Mukhed3",
-            //          CountryId = 3,
-            //          Rating = 3.2
-            //      }
-            //    );
+            modelBuilder.Entity<Hotel>().HasData(
+                new Hotel
+                {
+                    Id = 1,
+                    Name = "Jameka",
+                    Address = "Mukhed",
+                    CountryId = 1,
+                    Rating = 1.1
+                },
+                 new Hotel
+                 {
+                     Id = 2,
+                     Name = "Jameka2",
+                     Address = "Mukhed2",
+                     CountryId = 2,
+                     Rating = 1.1
+                 },
+                 new Hotel
+                 {
+                     Id = 4,
+                     Name = "Jameka4",
+                     Address = "Mukhed4",
+                     CountryId = 3,
+                     Rating = 4.1
+                 },
+                  new Hotel
+                  {
+                      Id = 3,
+                      Name = "Jameka3",
+                      Address = "Mukhed3",
+                      CountryId = 3,
+                      Rating = 3.2
+                  }
+                );
 
         }
     }
