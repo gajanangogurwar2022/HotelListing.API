@@ -52,14 +52,7 @@ namespace HotelListing.API.Data
                      CountryId = 2,
                      Rating = 1.1
                  },
-                 new Hotel
-                 {
-                     Id = 4,
-                     Name = "Jameka4",
-                     Address = "Mukhed4",
-                     CountryId = 3,
-                     Rating = 4.1
-                 },
+                 
                   new Hotel
                   {
                       Id = 3,
@@ -67,6 +60,14 @@ namespace HotelListing.API.Data
                       Address = "Mukhed3",
                       CountryId = 3,
                       Rating = 3.2
+                  },
+                  new Hotel
+                  {
+                      Id = 4,
+                      Name = "Jameka4",
+                      Address = "Mukhed4",
+                      CountryId = 3,
+                      Rating = 4.1
                   }
                 );
 
